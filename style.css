@@ -1,4 +1,4 @@
-body {
+мbody {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
@@ -7,10 +7,20 @@ body {
 }
 
 header {
-  background: #0366d6;
+  background: linear-gradient(120deg, #004aad, #007bff);
   color: white;
   text-align: center;
-  padding: 60px 20px;
+  padding: 70px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  opacity: 0.9;
 }
 
 main {
@@ -20,17 +30,27 @@ main {
 }
 
 h2 {
-  border-bottom: 2px solid #0366d6;
+  border-bottom: 2px solid #004aad;
   padding-bottom: 5px;
 }
 
 a {
-  color: #0366d6;
+  color: #004aad;
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
 }
 
 footer {
@@ -39,4 +59,5 @@ footer {
   text-align: center;
   padding: 20px 0;
   margin-top: 60px;
+  font-size: 0.9em;
 }
